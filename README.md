@@ -38,7 +38,7 @@
 - _p27_AceptarEstudiante
 - _p28_LeyDeNewton
 # Actividad 6
-- _p29:Calculadora
+- _p29_Calculadora
 - _p30_DiaSemana
 - _p31_NumerosRomanos
 - _p32_PagoEstacionamiento
