@@ -18,6 +18,7 @@ public class _p55_SumaParesImpares {
                 s = 0;
                 System.out.println("Hasta donde deseas llegar? ");
                 n = obj.nextInt();
+                
                 for (int i = 1; i <= n; i+=2) {
                     System.out.printf("%d ", i);
                     s += i;
