@@ -42,4 +42,7 @@
 - _p30_DiaSemana
 - _p31_NumerosRomanos
 - _p32_PagoEstacionamiento
+# practica 2
+- _p33_NumerosConsecutivos
+
 
