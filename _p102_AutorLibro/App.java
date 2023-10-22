@@ -1,7 +1,8 @@
 package _p102_AutorLibro;
 
+
 public class App {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         // Prueba Autor
         Autor a1 = new Autor("Tan Ah Teck",
         "ahteck@nowhere.com");
@@ -23,7 +24,9 @@ public class App {
         System.out.println("Isbn es: " + b1.getIsbn());
         System.out.println("Nombre es: " + b1.getNombre());
         System.out.println("Precio es: " + b1.getPrecio());
-        System.out.println("Cant es: " + b1.getCant());
+        System.out
+        .
+        println("Cant es: " + b1.getCant());
         System.out.println("Autor es: " + b1.getAutor());
         System.out.println("Autor Nombre: " +
 

@@ -4,14 +4,12 @@ public class Empleado {
     private String Nombre;
     private int Edad;
 
-    public Empleado() {
-
-    }
     public Empleado(String nombre, int edad) {
-        this.Nombre = nombre;
-        this.Edad = edad;
+        Nombre = nombre;
+        Edad = edad;
+        
     }
-    
+
     public String getNombre() {
         return Nombre;
     }
@@ -28,10 +26,14 @@ public class Empleado {
         Edad = edad;
     }
 
-
     @Override
     public String toString() {
         return "Empleado [Nombre=" + Nombre + ", Edad=" + Edad + "]";
     }
     
+
+    
+    
+
+   
 }
