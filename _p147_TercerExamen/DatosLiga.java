@@ -34,6 +34,7 @@ public class DatosLiga {
             e.printStackTrace();
         }
     }
+
     public double calcularTotalSalario() {
         double totalSalario = 0.0;
         for (Jugador jugador : listaJugadores) {
