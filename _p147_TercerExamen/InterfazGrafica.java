@@ -1,10 +1,16 @@
 package _p147_TercerExamen;
 
+
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.util.ArrayList;
 import java.util.List;
 
 public class InterfazGrafica {
@@ -70,7 +76,7 @@ public class InterfazGrafica {
         }
     });
 
-    // Agregar el botón al panelBotones u otro componente según tu diseño
+  
     panelBotones.add(btnMostrarInformacion);
 }
 
@@ -81,7 +87,7 @@ private void mostrarInformacion() {
     int solteros = datos.contarSolteros();
     int casados = datos.contarCasados();
 
-    // Puedes mostrar esta información en un cuadro de diálogo, etiquetas, etc.
+    
     JOptionPane.showMessageDialog(frame,
             "Total de Salario: " + totalSalario + "\n" +
                     "Cantidad de Hombres: " + hombres + "\n" +
@@ -173,11 +179,10 @@ private void mostrarInformacion() {
         
     }
     
-    
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new InterfazGrafica());
     }
- }
     
-
+}
+    
 
