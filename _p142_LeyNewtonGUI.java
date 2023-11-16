@@ -18,8 +18,7 @@ public class _p142_LeyNewtonGUI extends JFrame implements ActionListener, Change
         p1 = new JPanel();
         p1.setLayout(new GridLayout(5,2));
 
-        // etiquetas
-        lblFuerza = new JLabel("Fuerza : ", JLabel.RIGHT); p1.add(lblFuerza);  
+        // etiquetas                                               l,ó¿pñ´6+        lblFuerza = new JLabel("Fuerza : ", JLabel.RIGHT); p1.add(lblFuerza);  /*-5 */
         txtFuerza = new JTextField(); p1.add(txtFuerza);
         
         lblMasa = new JLabel("Masa : ", JLabel.RIGHT); p1.add(lblMasa); 
